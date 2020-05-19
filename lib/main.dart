@@ -10,11 +10,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.teal.shade200,
+        backgroundColor: Colors.blue.shade200,
         appBar: AppBar(
           title: Text("My Card"),
           centerTitle: true,
-          backgroundColor: Colors.teal,
+          backgroundColor: Colors.blue.shade700,
         ),
         body: SafeArea(
           child: Column(
@@ -38,7 +38,7 @@ class MyApp extends StatelessWidget {
                 style: TextStyle(
                   fontSize: 20,
                   fontFamily: "SourceSansPro",
-                  color: Colors.teal,
+                  color: Colors.blue.shade700,
                   fontWeight: FontWeight.bold,
                   letterSpacing: 2.5,
                 ),
@@ -47,7 +47,7 @@ class MyApp extends StatelessWidget {
                 height: 20,
                 width: 150,
                 child: Divider(
-                  color: Colors.teal,
+                  color: Colors.blue.shade700,
                 ),
               ),
               Card(
@@ -57,7 +57,7 @@ class MyApp extends StatelessWidget {
                   leading: Icon(
                     Icons.phone,
                     size: 20,
-                    color: Colors.teal,
+                    color: Colors.blue.shade700,
                   ),
                   title: Text(
                     "08157176630",
@@ -74,7 +74,7 @@ class MyApp extends StatelessWidget {
                 child: ListTile(
                     leading:  Icon(
                       Icons.email,
-                      color: Colors.teal,
+                      color: Colors.blue.shade700,
                     ),
                     title: Text(
                       "feledeji@gmail.com",
